@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 20px;
+}
+
+.h1Size {
+    font-size: 3.5em;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    top: -50px;
+    transition: top 0.3s;
+    height: 50px;
+    background-color: rgba(0, 0, 0, .1);
+    z-index: 99;
+    text-align: center
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+    margin-left: 30px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #9bc2cf;
+}
+
+nav a:active {
+    color: #9bc2cf;
+}
+
+@font-face {
+    font-family: SR;
+    src: url("../fonts/SpicyRice.ttf");
+}
+
+.aboutFont {
+    font-family: "SR", serif;
+    font-size: x-large;
+}
+
+.sect {
+    height: 100%;
+    width:100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.subsect {
+    height: 50%;
+    background-color: rgba(0,0,0,.8);
+}
+
+.subsectGallery {
+    height: 30%;
+    background-color: rgba(0,0,0,.8);
+}
+
+.subsect1 {
+    display: table;
+    width: 100%;
+}
+
+.centersubsect1 {
+    height:100%;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    color: #fff;
+}
+
+.centersubsect2 {
+    height:100%;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    color: #fff;
+}
+
+.LeftAlignH1 {
+    text-align: left;
+    padding: 100px;
+}
+
+.LeftAlignH1event {
+    text-align: left;
+    padding: 60px;
+}
+
+
+.sect1 {
+    background-image: linear-gradient(rgba(26,26,26,0.5), rgba(26, 26, 26, 0.5)), url("../images/adlower.jpg");
+
+}
+
+.sect2 {
+    background-image: linear-gradient(rgba(26,26,26,0.5), rgba(26, 26, 26, 0.5)), url("../images/hrlycommercial.jpg");
+    height: 120%;
+}
+
+.sect3 {
+    background-image: linear-gradient(rgba(26,26,26,0.5), rgba(26, 26, 26, 0.5)), url("../images/lvm.jpg");
+    height: 120%;
+}
+
+.sect4 {
+    background-image: linear-gradient(rgba(26,26,26,0.4), rgba(26, 26, 26, 0.4)), url("../images/tp.jpg");
+    height: 120%;
+}
+
+.sect5 {
+    background-image: linear-gradient(rgba(26,26,26,0.5), rgba(26, 26, 26, 0.5)), url("../images/sch.jpg");
+    height: 120%;
+}
+
+.sect6 {
+    background-image: linear-gradient(rgba(26,26,26,0.5), rgba(26, 26, 26, 0.5)), url("../images/bnb.jpg");
+    height: 120%;
+}
+
+.sect7 {
+    background-image: linear-gradient(rgba(26,26,26,0.1), rgba(26, 26, 26, 0.1)), url("../images/star.jpg");
+    height: 120%;
+}
+
+.sect8 {
+    background-image: linear-gradient(rgba(26,26,26,0.1), rgba(26, 26, 26, 0.1)), url("../images/somb.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120%;
+}
+
+.sect9 {
+    background-image: linear-gradient(rgba(26,26,26,0.2), rgba(26, 26, 26, 0.2)), url("../images/hrlytam.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120%;
+}
+
+.sect10 {
+    background-image: linear-gradient(rgba(26,26,26,0.2), rgba(26, 26, 26, 0.2)), url("../images/tam.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.sect11 {
+    background-image: linear-gradient(rgba(26,26,26,0.3), rgba(26, 26, 26, 0.3)), url("../images/mab.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
